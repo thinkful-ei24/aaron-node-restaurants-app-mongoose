@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: BJuX2p6mrx9n+SI6CxuRW2YYVfNPui+4wLUgm8XKwZMWQ4zghz+Osf5A0kgfx5LvORpyh6Gmnkn7C5+CDCplh3wKD4jYsmQWyjV7+12GWs7iaXb859+UfP6m0GcjFJ2VASHxOcFTaJhAXqybLAvPJH1nEN+dnjE37cqX8HYt7u22WjptQmLeugld5pxQ0iSpspJxRtMlqv0nezgtaGAmMLmUYDZbS6OALThkwoz9VaUE+NwJhX8vbRTLxMvqCq9YslFDzmzzjqBGVS0R6PSdLFopUESmQzwlZWjgEbVw8nZ4gKHVKmSElheLqMmgSWlug3abAYyMV5rQdqbdqVD1OBMs0LYW25q/f8ke+ZbpyanC3zQ+tahuksX9oHK7mZeGlJ2phF0v1VOYYIVlFKd9J8AofSv3FTbvxzl5uCagSELAUc7r1WvoVE330UJIZhB0vStkojrsaWthSEeTcbapFaXgCxisXsxslJpRYq13sZIgujUak/I9FqoWzU6XQ1kfryBiysJuqZC/8ftdJXkYjVJfQPNXTaQGA9EmztPgifgqTO0zkI78AzeOuXhhTrLh5kGuKbohzNiLD0bZuIEzy6dqfM9qDz7jn5ySMvLn23wyjzdYejTVFTj0QPjAP+n1aE+BOnoBxImfBBqHmEaSUVSznSkuKXpWhlzki+2Xkac=
+  app: immense-beyond-87030
+  on:
+    repo: thinkful-ei24/aaron-node-restaurants-app-mongoose
+    branch: feature/with-tests
